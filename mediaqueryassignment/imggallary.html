@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallary</title>
+    <style>
+        .container{
+            display: flex;
+            gap:15px; 
+            flex-wrap: wrap;
+            
+        }
+        .container img{
+            width:30%;
+            
+        }
+        @media (max-width:800px){
+            .container img{
+                width:33.33%;
+            }
+        }
+        @media (max-width:500px){
+            .container img{
+                width:100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://play-lh.googleusercontent.com/nUzK8WjxbT-X59mlDYyPej6HO_j45Ou7qOIIgnJbTO6IzNA6iAU_kMdA38hHGONBv9c" alt="BTS">
+        <img src="https://play-lh.googleusercontent.com/nUzK8WjxbT-X59mlDYyPej6HO_j45Ou7qOIIgnJbTO6IzNA6iAU_kMdA38hHGONBv9c" alt="BTS">
+        <img src="https://play-lh.googleusercontent.com/nUzK8WjxbT-X59mlDYyPej6HO_j45Ou7qOIIgnJbTO6IzNA6iAU_kMdA38hHGONBv9c" alt="BTS">
+    </div>
+</body>
+</html>
